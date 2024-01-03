@@ -12,17 +12,20 @@ body {
 
 button {
   font: inherit;
-  background: #ff2058;
+  background: #2041ff;
   padding: 0.5rem 2rem;
   color: white;
-  border: 1px solid #ff2058;
+  border: 1px solid #2041ff;
   margin: 0.5rem 0;
   border-radius: 5px;
   cursor: pointer;
+  transition-duration: 400ms;
 }
 
 button:hover,
 button:active {
+  transition-duration: 400ms;
+  background: #021897;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
 }
 
